@@ -3,7 +3,7 @@
 int main(void){
   float vet[5] = {1.1,2.2,3.3,4.4,5.5}, *f;
   int i;
-  
+
   f = vet;
   
   printf("contador/valor/valor/endereco/endereco");
