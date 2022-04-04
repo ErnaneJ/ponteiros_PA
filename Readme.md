@@ -1,0 +1,1 @@
+# Programação Avançada - Ponteiros em C | Lista de Ponteiros.

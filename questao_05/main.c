@@ -9,10 +9,10 @@ int main(void){
   printf("contador/valor/valor/endereco/endereco");
   
   for(i = 0 ; i <= 4 ; i++){
-    printf("\ni = %d",i);
-    printf("vet[%d] = %.1f",i, vet[i]);
-    printf("*(f + %d) = %.1f",i, *(f+i));
-    printf("&vet[%d] = %X",i, &vet[i]);
-    printf("(f + %d) = %X\n\n",i, f+i);
+    printf("\ni = %d | ",i);
+    printf("vet[%d] = %.1f | ",i, vet[i]);
+    printf("*(f + %d) = %.1f | ",i, *(f+i));
+    printf("&vet[%d] = %X | ",i, &vet[i]);
+    printf("(f + %d) = %X |\n",i, f+i);
   }
 }
