@@ -28,7 +28,7 @@ Aqui temos um acesso do valor presente em `i` de uma forma mais complexa.
 
 ## Expressão 4: 
 
-Expressão aritimérica utilizando-se dos valores de `p` e `q`. Como o valor de `p` aponta para a posição da memória onde está o valor de `i` e da mesma forma, `q` para o valor de `j`. Temos `(3 - 3/(5) + 7)` resultando em `10`.
+Expressão aritimérica utilizando-se dos valores de `p` e `q`. Como o valor de `p` aponta para a posição da memória onde está o valor de `i` e da mesma forma, `q` para o valor de `j`. Temos `(3 - 3/(5) + 7)`e como `*p/*q` é uma divisão inteira temos como reasultado o valor `10`.
 
 ```c
 3-*p/(*q) + 7; // =>  10
