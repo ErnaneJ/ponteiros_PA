@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_sequence(int *sequence, int size){ // função genérica para imprimir dado array de inteiros.
-  for (int i = 0; i < size; i++) { // loop que percorre o array e decide o tipo de impressão
-    if(i < size-2){ // apenas para fins estéticos de saída verifica quando o loop está no fim deixar a impressão mais natural.
+void print_sequence(int *sequence, int size){
+  for (int i = 0; i < size; i++) {
+    if(i < size-2){
       printf("%d, ", sequence[i]);
     }else if(i == size-2){
       printf("%d e ", sequence[i]);
@@ -18,26 +18,29 @@ void print_sequence(int *sequence, int size){ // função genérica para imprimi
   }
 }
 
-void function_to_calculate_fibonacci(int *n){ // função que calcula a sequencia de fibonacci
-  int *fib = malloc(*n * sizeof(int)); // alocamos um espaço na memória para um array de inteiro de n elementos
-  fib[0] = 0; // populamos as suas primeiras posições com os primeiros elementos da sequencia
+void function_to_calculate_fibonacci(int *n){ 
+  int *fib = malloc(*n * sizeof(int));
+  fib[0] = 0;
   fib[1] = 1;
-  for (int i = 2; i < *n; i++) { // calculamos a sequencia para n elementos
+  for (int i = 2; i < *n; i++) {
     fib[i] = fib[i-2] + fib[i-1];
   }
-  print_sequence(fib, *n); // utilizamos a função de impressão para mostrar os numeros da sequencia
-  free(fib); // liberamos a memória utilizada já que não iremos mais precisar dela
+  print_sequence(fib, *n);
+  free(fib);
 }
 
 int main(){
-  int n = 0; // inicializa o inteiro n correspondente a quantidade de termos a ser calculada
+  int n = 0;
   void (*fibonacci)(int *) = &function_to_calculate_fibonacci; // cria um ponteiro para função chamado fibonacci
 
   printf("\nDigite a quantidade de termos desejados: ");
-  scanf("%d", &n); // solicita o inteiro ao usuario
+  scanf("%d", &n);
   if(n != 0 ){
     printf("O(s) %d primeiro(s) termo(s) da sequencia de Fibonacci é ", n);
-    fibonacci(&n); // chama o ponteiro para função passando como parametro o inteiro n. Isso Executará function_to_calculate_fibonacci que por sua vez imprimirá os termos com print_sequence
+    // chama o ponteiro para função passando como parametro o inteiro n. 
+    // Isso executará function_to_calculate_fibonacci que por sua vez imprimirá 
+    // os termos com print_sequence.
+    fibonacci(&n);
   }else{
     printf("Nenhum termo da seqência a ser mostrado.");
   }
