@@ -80,5 +80,5 @@ $ gcc --version
 ---
 
 <div align="center">
-  Desenvolvido com ❤ por <a href="https://www.ernane.dev/">Ernane Ferreira</a>. 👋🏻<br/> Insentivado e idealizado no semestre 2022.1 pelo professor <a href="https://agostinhobritojr.github.io/">Agostinho Brito Junior</a> na Universidade Federal do Rio Grande do Norte - Departamento de Engennharia da Computação na matéria de Programação Avançada.
+  Desenvolvido com ❤ por <a href="https://www.ernane.dev/">Ernane Ferreira</a>. 👋🏻<br/> Insentivado e idealizado no semestre 2022.1 pelo professor <a href="https://agostinhobritojr.github.io/">Agostinho Brito Junior</a>. <br> Universidade Federal do Rio Grande do Norte - Departamento de Engennharia da Computação.
 </div>
