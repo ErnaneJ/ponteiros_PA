@@ -66,14 +66,14 @@ int **allocate_array(int nl, int nc){
 void multiplies_matrices(int **matriz_a, int **matriz_b, int **matriz_c, int nl_a, int nc_a, int nl_b, int nc_b){
   int sum;
   for(int i = 0; i < nl_a; i++) {
-		for(int j = 0; j < nc_b; j++) {
-			matriz_c[i][j] = 0;
-			for(int k = 0; k < nl_b; k++) {
-				sum += matriz_a[i][k] * matriz_b[k][j];
-			}
-			matriz_c[i][j] = sum;
-			sum = 0;
-		}
+    for(int j = 0; j < nc_b; j++) {
+      matriz_c[i][j] = 0;
+      for(int k = 0; k < nl_b; k++) {
+        sum += matriz_a[i][k] * matriz_b[k][j];
+      }
+      matriz_c[i][j] = sum;
+      sum = 0;
+    }
 	}
 }
 
