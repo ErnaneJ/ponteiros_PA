@@ -43,20 +43,20 @@ int main() {
 
   get_elements(elements, size);
 
-  // printf("Relatório da ordenação de %d elementos com a função autoral (sort_elements): \n", size);
-  // start_time = clock();
-  // sort_elements(elements, size, ascending_order);
-  // time_spent = clock()-start_time;
-  // printf("- Tempo de execução: %ld.\n", time_spent);
-  // printf("- Clicks: %fs.\n", ((float)time_spent)/CLOCKS_PER_SEC);
-
-  printf("\n\n");
-  printf("Relatório da ordenação de %d elementos com a função da stdlib (qsort): \n", size);
+  printf("Relatório da ordenação de %d elementos com a função autoral (sort_elements): \n", size);
   start_time = clock();
-  qsort(elements, size, sizeof(float), ascending_order); 
+  sort_elements(elements, size, ascending_order);
   time_spent = clock()-start_time;
-  printf("- Tempo de execução: %ld.\n", time_spent);
-  printf("- Clicks: %fs.\n", ((float)time_spent)/CLOCKS_PER_SEC);
+  printf("- Clocks: %ld.\n", time_spent);
+  printf("- Tempo de execução: %fs.\n", ((float)time_spent)/CLOCKS_PER_SEC);
+
+  // printf("\n\n");
+  // printf("Relatório da ordenação de %d elementos com a função da stdlib (qsort): \n", size);
+  // start_time = clock();
+  // qsort(elements, size, sizeof(float), ascending_order); 
+  // time_spent = clock()-start_time;
+  // printf("- Clocks: %ld.\n", time_spent);
+  // printf("- Tempo de execução: %fs.\n", ((float)time_spent)/CLOCKS_PER_SEC);
 
   printf("\n");
   free(elements);
