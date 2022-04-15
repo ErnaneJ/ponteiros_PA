@@ -49,7 +49,7 @@ Resolução das questões referentes à lista de exercício "`lista de ponteiros
     📌 <a href="https://github.com/ErnaneJ/ponteiros_PA/tree/master/questao_20">Questão20.</a><br>
   </details>
 
-### ⚙️ Execute
+## ⚙️ Execute
 
 Para desenvolver as questões foi utilizado o compilador gcc:
 
