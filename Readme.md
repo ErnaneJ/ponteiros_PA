@@ -11,7 +11,7 @@
 
 ## 💻 Projeto
 
-Resolução das questões referentes à lista de exercício "`lista de ponteiros`" da primeira unidade do curso de **Programação Avançada** do Departamento de Engenharia de Computação (DCA) na Universidade Federal do Rio Grande do Norte (UFRN) no semestre de 2022.1. O objetivo da resoluição dessas questões é fixar os conteúdos ministrados na primeira unidade sobre a linguagem. Dentre eles: 
+Resolução das questões referentes à lista de exercício "`lista de ponteiros`" da primeira unidade do curso de **Programação Avançada** do Departamento de Engenharia de Computação (DCA) na Universidade Federal do Rio Grande do Norte (UFRN) no semestre de 2022.1. O objetivo da resolução dessas questões é fixar os conteúdos ministrados na primeira unidade sobre a linguagem. Dentre eles: 
   - Introdução aos Ponteiros em C;
   - Caminhando na Memória;
   - Caminhando em Arrays;
