@@ -63,7 +63,7 @@ int **allocate_array(int nl, int nc){
   return matriz;
 }
 
-void multiplies_matrices(int **matriz_a, int **matriz_b, int **matriz_c, int nl_a, int nc_a, int nl_b, int nc_b){
+void matrix_product(int **matriz_a, int **matriz_b, int **matriz_c, int nl_a, int nc_a, int nl_b, int nc_b){
   int sum;
   for(int i = 0; i < nl_a; i++) {
     for(int j = 0; j < nc_b; j++) {
@@ -74,7 +74,7 @@ void multiplies_matrices(int **matriz_a, int **matriz_b, int **matriz_c, int nl_
       matriz_c[i][j] = sum;
       sum = 0;
     }
-	}
+  }
 }
 
 int main(){
@@ -106,7 +106,7 @@ int main(){
 
   matriz_c = allocate_array(nl_a, nc_b);
   
-  multiplies_matrices(matriz_a, matriz_b, matriz_c, nl_a, nc_a, nl_b, nc_b);
+  matrix_product(matriz_a, matriz_b, matriz_c, nl_a, nc_a, nl_b, nc_b);
   printf("\nA matriz C resultante de AxB é:\n\n");
   print_matriz(matriz_c, nl_a, nc_b);
 
