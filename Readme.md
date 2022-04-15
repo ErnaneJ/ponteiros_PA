@@ -11,7 +11,7 @@
 
 ## 💻 Projeto
 
-Resolução das questões referentes à lista de exercício "`lista de ponteiros`" da primeira unidade do curso de **Programação Avançada** do Departamento de Engenharia de Computação (DCA) na Universidade Federal do Rio Grande do Norte (UFRN) no semestre de 2022.1. O objetivo da resolução dessas questões é fixar os conteúdos ministrados na primeira unidade sobre a linguagem. Dentre eles: 
+Resolução das questões referentes à lista de exercício "`lista de ponteiros`" da primeira unidade do curso de **Programação Avançada** do Departamento de Engenharia de Computação e Automação (DCA) na Universidade Federal do Rio Grande do Norte (UFRN) no semestre de 2022.1. O objetivo da resolução dessas questões é fixar os conteúdos ministrados na primeira unidade sobre a linguagem. Dentre eles: 
   - Introdução aos Ponteiros em C;
   - Caminhando na Memória;
   - Caminhando em Arrays;
@@ -80,5 +80,5 @@ $ gcc --version
 ---
 
 <div align="center">
-  Desenvolvido com ❤ por <a href="https://www.ernane.dev/">Ernane Ferreira</a>. 👋🏻<br/> Insentivado e idealizado no semestre 2022.1 pelo professor <a href="https://agostinhobritojr.github.io/">Agostinho Brito Junior</a>. <br> Universidade Federal do Rio Grande do Norte - Departamento de Engennharia da Computação.
+  Desenvolvido com ❤ por <a href="https://www.ernane.dev/">Ernane Ferreira</a>. 👋🏻<br/> Insentivado e idealizado no semestre 2022.1 pelo professor <a href="https://agostinhobritojr.github.io/">Agostinho Brito Junior</a>. <br> Universidade Federal do Rio Grande do Norte - Departamento de Engennharia da Computação e Automação.
 </div>
