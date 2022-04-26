@@ -3,13 +3,13 @@
 </h1>
 
 <div align="center">
-  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Execute">Execute</a>&nbsp;&nbsp;&nbsp;
 </div>
 
 <br>
 
-## 💻 Projeto
+## 💻 Sobre
 
 Resolução das questões referentes à lista de exercício "`lista de ponteiros`" da primeira unidade do curso de **Programação Avançada** do Departamento de Engenharia de Computação e Automação (DCA) na Universidade Federal do Rio Grande do Norte (UFRN) no semestre de 2022.1. O objetivo da resolução dessas questões é fixar os conteúdos ministrados na primeira unidade sobre a linguagem. Dentre eles: 
   - Introdução aos Ponteiros em C;
